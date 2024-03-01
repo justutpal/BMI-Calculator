@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Body Mass Index</title>
+</head>
+<body class="bg-black justify-center flex pt-10" >
+
+    <div id="container" class="bg-red-950 w-3/5  flex flex-col flex-wrap justify-center pt-10 pb-20 rounded-3xl">
+        <h1 class="text-white text-[50px] text-center"> BMI Calculator</h1>
+        <form action="#" class="text-center">
+            <p class="text-white mt-10 "> HEIGHT : <input type="number" placeholder="height in cm" class="rounded-xl pt-1 pb-1 pl-5 ml-5 text-black" id="height"></p>
+            <br>
+            <p class="text-white">WEIGHT : <input type="number" placeholder="weight in kg" class="rounded-xl pt-1 pb-1 pl-5 ml-5 text-black" id="weight"></p>
+            <p><input type="submit" value="Calculate" class="bg-white mb-10 mt-10 pb-1 pt-1 pl-5 pr-5 rounded-sm" id="submit"></p>
+        </form>
+        <p id="result" class="text-white text-center mb-10">51545</p>
+        <h1 class="text-white text-center">BMI Categories:</h1>
+        <p class="text-white text-center">Underweight = < 18.5 </p>
+        <p class="text-white text-center">Normal weight = 18.5 – 24.9 </p>
+        <p class="text-white text-center">Overweight = 25 – 29.9 </p>
+        <p class="text-white text-center">Obesity = BMI of 30 or greater </p>
+    </div>
+
+    <script src="javascript.js"></script>
+    
+</body>
+</html>
