@@ -6,22 +6,22 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Body Mass Index</title>
 </head>
-<body class="bg-black justify-center flex pt-10 " >
+<body class="bg-black justify-center flex pt-6 " >
 
-    <div id="container" class="bg-red-950 w-3/5  flex flex-col flex-wrap justify-center pt-10 pb-20 rounded-3xl">
+    <div id="container" class="w-11/12  flex flex-col flex-wrap justify-center pt-12 pb-10 rounded-3xl bg-gradient-to-t from-blue-800 to-black sm:w-3/5 md:w-8/12 lg:w-6/12">
 
 
-        <h1 class="text-white text-[50px] text-center"> BMI Calculator</h1>
+        <h1 class="text-white text-[35px] text-center sm:text-[40px] md:text-[45px] lg:text-[50px]"> BMI Calculator</h1>
         
         <div class="text-center">
-            <p class="text-white mt-10 "> HEIGHT : <input type="number" placeholder="height in cm" class="rounded-xl pt-1 pb-1 pl-5 ml-5 text-black" id="height"></p>
+            <p class="text-white mt-10 "> HEIGHT : <input type="number" placeholder="height in cm" class="rounded-xl pt-1 pb-1 pl-5 ml-1 w-28 text-black sm:w-40 md:w-48 lg:w-60" id="height"></p>
             <br>
-            <p class="text-white">WEIGHT : <input type="number" placeholder="weight in kg" class="rounded-xl pt-1 pb-1 pl-5 ml-5 text-black" id="weight"></p>
-            <p type="submit" class="bg-white my-10 mx-auto pb-1 pt-1 pl-5 pr-5 rounded-sm w-48 text-center cursor-pointer" id="submit">Calculate</p>
+            <p class="text-white">WEIGHT : <input type="number" placeholder="weight in kg" class="rounded-xl pt-1 pb-1 pl-5 ml-1 w-28 text-black sm:w-40 md:w-48 lg:w-60" id="weight"></p>
+            <p type="submit" class="bg-white my-10 mx-auto pb-1 pt-1 pl-5 pr-5 rounded-sm w-28 text-center cursor-pointer sm:w-40 md:w-48 lg:w-60" id="submit">Calculate</p>
         </div>
         
         <p class="text-white text-center mb-5">RESULT : <span id="result"></span></p>
-        <p class="text-white text-center mb-10 text-3xl" id="para"></p>
+        <p class="text-white text-center mb-10 text-xl sm:text-2xl md:text-3xl" id="para"></p>
 
         <h1 class="text-white text-center">BMI Categories:</h1>
         <p class="text-white text-center">Underweight = < 18.5 </p>
